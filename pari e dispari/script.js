@@ -5,18 +5,22 @@ let numberRandom;
 function numberPc(min , max){
 
     numberRandom = Math.floor(Math.random() * (max - min +1) + min)
-    console.log(numberRandom)
 }
 numberPc(1,5)
 
 let somma= numeroUtente + numberRandom
+console.log(somma)
 
 function result (number){
-    if(number %2 == 0){
-        return true
+    if(number %2 == 0 && pariDispari === 'pari'){
+        console.log('hai vinto il numero è pari')
+    }
+    else if(number %2 != 0 && pariDispari =='dispari' ){
+        console.log('hai vinto il numero è dispari')
+        
     }
     else{
-        return false
+        console.log('hai perso')
     }
 }
 result(somma)
