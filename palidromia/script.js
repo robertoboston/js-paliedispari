@@ -1,8 +1,4 @@
-let userWord= prompt('Inserisci una parola')
-
-palindroma = (userWord)
-
-function palindroma (word){
+function wordUser (word){
 
     let myArray = userWord.split("")
 
@@ -13,13 +9,19 @@ function palindroma (word){
     console.log(joinWord)
 
     if(word == joinWord){
-        
+    alert('è palindroma')
     }
     else{
-        return false
+    alert('non è palindroma')
     }
 
 }
+
+let userWord= prompt('Inserisci una parola')
+
+wordUser(userWord)
+
+
 
 
 
