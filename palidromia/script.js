@@ -6,8 +6,6 @@ function wordUser (word){
 
     let joinWord= myArray.join('')
 
-    console.log(joinWord)
-
     if(word == joinWord){
     alert('è palindroma')
     }
