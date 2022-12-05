@@ -12,12 +12,16 @@ numberPc(1,5)
 let somma= numeroUtente + numberRandom
 
 function result (number){
-    if(number %2 == 0)
-
-
+    if(number %2 == 0){
+        return true
+    }
+    else{
+        return false
+    }
 }
-
 result(somma)
+
+
 
 
 
