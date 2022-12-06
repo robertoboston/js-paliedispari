@@ -10,7 +10,10 @@ function numberPc(min , max){
 }
 numberPc(1,5)
 
-let somma= numeroUtente + numberPc(1,5)
+let check = numberPc(1,5)
+console.log(check)
+
+let somma= numeroUtente + check
 console.log(somma)
 
 function result (number){
