@@ -1,6 +1,6 @@
 let pariDispari = prompt('scegli tra pari e dispari')
 let numeroUtente =parseInt(prompt ('scegli un numero tra 1 e 5')) 
-console.log(numeroUtente)
+console.log("il numero dell'utente è:" + numeroUtente)
 
 
 function numberPc(min , max){
@@ -11,7 +11,8 @@ function numberPc(min , max){
 numberPc(1,5)
 
 let check = numberPc(1,5)
-console.log(check)
+
+console.log("il numero del pc è:" + check)
 
 let somma= numeroUtente + check
 console.log(somma)
